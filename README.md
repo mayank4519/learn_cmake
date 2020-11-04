@@ -4,4 +4,7 @@ I've created CMakeLists.txt.
 add_executable() is and standard cmake functions where 1st name(calculator) rest all are dependencies.
 
 Execution steps:
-1. Inside my_project folder, mkdir build_dir;cd build_dir; cmake ..; make; ./calculator
+Inside my_project folder, mkdir build_dir;cd build_dir; cmake ..; make; ./calculator
+
+In commit, Added sub-folder for target my_math & my_print. Created their CMakeLists.txt.
+CMake file is being created inside each target and target_include_directories() is added to directly fetch header files from src files.
